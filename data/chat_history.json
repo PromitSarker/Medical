@@ -1,0 +1,68 @@
+{
+  "333": [
+    {
+      "timestamp": "2025-06-19T20:32:38.475656",
+      "user_message": "I am having heart attack",
+      "assistant_message": "Oh no, I'm so sorry to hear that you're experiencing symptoms of a heart attack. Please call emergency services or your local emergency number immediately. If you are in the US, call 911. If you are in another country, please call the emergency number for your location. \n\nWhile waiting for help to arrive, try to remain calm and sit or lie down in a comfortable position. If you are alone, try to get to a safe location where someone can find you. If you have any medication such as aspirin, take it as directed by your doctor or the emergency operator. \n\nRemember, every minute counts in a heart attack, and prompt medical attention is crucial. You will receive the best care possible at the hospital, and the medical team will work to stabilize your condition and prevent further damage. \n\nPlease try to stay on the line with the emergency operator and follow any instructions they provide. Help is on the way, and you will get through this.",
+      "triage_level": "EMERGENCY",
+      "symptoms": [
+        "chest pain",
+        "shortness of breath",
+        "pain in arms, back, neck, jaw, or stomach"
+      ]
+    }
+  ],
+  "111": [
+    {
+      "timestamp": "2025-06-19T20:33:17.956427",
+      "user_message": "I am having gassy stomasch",
+      "assistant_message": "I'm so sorry to hear that you're experiencing a gassy stomach. That can be quite uncomfortable and disrupt your daily activities. Can you tell me more about what you're experiencing? For example, when did the gas start, and have you noticed any triggers or factors that make it worse? Have you tried any remedies or over-the-counter medications to help alleviate the discomfort? Additionally, have you noticed any other symptoms such as bloating, abdominal pain, or changes in bowel movements? The more information you can provide, the better I'll be able to assist you and offer guidance on how to manage your symptoms.",
+      "triage_level": "ROUTINE",
+      "symptoms": [
+        "gas",
+        "bloating"
+      ]
+    },
+    {
+      "timestamp": "2025-06-19T20:33:32.330419",
+      "user_message": "my arse bleeding",
+      "assistant_message": "However, since you initially mentioned that your \"arse is bleeding\", I want to address that as well. Rectal bleeding can be a sign of a more serious underlying condition, and it's essential to have it evaluated by a healthcare professional. \n\n{\n\"urgency\": \"URGENT\",\n\"symptoms\": [\"rectal bleeding\"]\n}\n\nI strongly advise you to seek medical attention within the next 24 hours to have the rectal bleeding assessed and treated appropriately. In the meantime, if you experience any severe symptoms such as heavy bleeding, severe abdominal pain, or difficulty breathing, please call emergency services or visit the emergency room immediately.",
+      "triage_level": "ROUTINE",
+      "symptoms": [
+        "gassy stomach",
+        "abdominal discomfort"
+      ]
+    }
+  ],
+  "123": [
+    {
+      "timestamp": "2025-06-19T20:34:21.491551",
+      "user_message": "I'm having a heart attack",
+      "assistant_message": "Oh no, I'm so sorry to hear that you're experiencing symptoms of a heart attack. Please call emergency services or your local emergency number immediately. If you are in the US, you can call 911. If you are with someone, have them call for you. \n\nWhile waiting for help to arrive, try to remain calm and sit or lie down in a comfortable position. If you are alone, unlock your door to allow emergency responders to enter your home. If you have any nitroglycerin prescribed by your doctor, take it as directed. \n\nRemember, every minute counts in a heart attack, and prompt medical attention is crucial. Help is on the way, and you will receive the care you need. Try to stay as calm as possible and focus on your breathing until the emergency responders arrive.",
+      "triage_level": "EMERGENCY",
+      "symptoms": [
+        "chest pain",
+        "heart attack"
+      ]
+    },
+    {
+      "timestamp": "2025-06-19T20:36:46.869584",
+      "user_message": "my arse bleeding",
+      "assistant_message": "",
+      "triage_level": "EMERGENCY",
+      "symptoms": [
+        "chest pain",
+        "heart attack"
+      ]
+    },
+    {
+      "timestamp": "2025-06-19T20:36:49.951467",
+      "user_message": "my arse bleeding",
+      "assistant_message": "I'm so sorry to hear that you're experiencing rectal bleeding. This can be a concerning symptom, and it's essential to get it checked by a medical professional as soon as possible. Rectal bleeding can be caused by various conditions, some of which may require prompt attention.\n\nPlease try to remain calm and take note of the following: \n\n- The amount and color of the blood\n- Any pain or discomfort you're experiencing\n- Any other symptoms, such as dizziness, weakness, or abdominal pain\n\nIt's crucial to see a doctor within the next 24 hours to determine the cause of the bleeding. In the meantime, if you experience severe bleeding, dizziness, or difficulty breathing, please call emergency services or your local emergency number immediately.\n\nWhen you visit your doctor, they will likely perform a physical examination, take a medical history, and may order some tests to determine the cause of the bleeding. Treatment will depend on the underlying cause, but it's essential to get a proper diagnosis to receive the appropriate care.\n\nPlease take care and seek medical attention as soon as possible. If you have any further questions or concerns, feel free to ask.",
+      "triage_level": "URGENT",
+      "symptoms": [
+        "rectal bleeding"
+      ]
+    }
+  ]
+}

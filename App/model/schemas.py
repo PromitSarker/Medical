@@ -15,3 +15,14 @@ class TriageStatus(BaseModel):
     recommendations: List[str]
     last_updated: datetime
     symptoms: List[str]
+
+class ChatHistoryEntry(BaseModel):
+    timestamp: datetime
+    user_message: str
+    assistant_message: str
+    triage_level: str
+    symptoms: List[str]
+
+class ChatHistoryResponse(BaseModel):
+    patient_id: str
+    history: List[ChatHistoryEntry]
